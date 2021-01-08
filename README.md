@@ -18,5 +18,10 @@ go mod init learning-golang
 go run Main.go
 ```
 
-#### List Of Contents
+#### Build Executable
+```
+go build Main.go
+```
+
+#### List of Contents
 - Hello.go
