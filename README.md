@@ -1,6 +1,9 @@
 # learning-golang
 Belajar Bahasa Pemrograman Golang
 
+#### Referensi
+[Golang Documentation](https://golang.org/doc/)
+
 #### Install in Ubuntu 
 ```
 sudo apt install golang
