@@ -1,7 +1,10 @@
-# learning-golang
-Belajar Bahasa Pemrograman Golang
+# Learning Golang
+Go Programming Language
 
-#### Referensi : [Golang Documentation](https://golang.org/doc/)
+#### References : 
+```
+- [Golang Documentation](https://golang.org/doc/)
+```
 
 #### Install in Ubuntu 
 ```
