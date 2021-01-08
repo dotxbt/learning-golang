@@ -23,5 +23,20 @@ go run Main.go
 go build Main.go
 ```
 
+#### Run Executable
+```
+./Main
+```
+
+#### Clean Project
+```
+go clean
+```
+
+#### Install to local go bin
+```
+go install Main.go
+```
+
 #### List of Contents
 - Hello.go
