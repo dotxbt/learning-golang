@@ -2,9 +2,7 @@
 Go Programming Language
 
 #### References : 
-```
 - [Golang Documentation](https://golang.org/doc/)
-```
 
 #### Install in Ubuntu 
 ```
