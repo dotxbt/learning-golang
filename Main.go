@@ -44,6 +44,12 @@ func main() {
 	basic.BasicType()
 	basic.ACar()
 
+	// Looping
+	basic.Looping()
+
+	// Switch
+	basic.SwitchSt(2)
+
 	// ============================== OOP ==============================
 	// constructor
 	mahasiswa, err := oop.NewStudent("245678992345678", "Anak Nakal", "Jl. Jalan Gak Pernah Pulang", "Teknik Informatika")

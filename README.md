@@ -44,7 +44,9 @@ go install Main.go
 - **basic**
     - Hello.go
     - DataStructure.go
-    - BasicType.go 
+    - BasicType.go
+    - Looping.go
+    - SwitchStatetment.go
 - **network**
     - ServerREST.go
 - **oop**
