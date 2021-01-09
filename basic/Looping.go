@@ -7,6 +7,7 @@ func Looping() {
 	for i := 0; i < 10; i++ {
 		fmt.Printf("%d ", i)
 	}
+	fmt.Println()
 
 	// while
 	x := 0
@@ -17,10 +18,10 @@ func Looping() {
 
 	// for each
 	names := []string{"Saya", "tidak", "akan", "mengulangi", "kembali"}
-
+	fmt.Println()
 	// value
-	for val := range names {
-		fmt.Printf("%v ", val)
+	for _, val := range names {
+		fmt.Printf("%s ", val)
 	}
 
 	maps := map[int]string{
