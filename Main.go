@@ -8,7 +8,7 @@ import (
 
 func main() {
 
-	fmt.Println("------------------ TEST SECTION -----------------")
+	fmt.Println("------------------ SHOW ALL -----------------")
 	fmt.Println(":::: BASIC ::::")
 	// print message
 	basic.Hello()
@@ -37,5 +37,9 @@ func main() {
 	}
 
 	fmt.Println(msg3)
+
+	// data structure
+	basic.BasicType()
+	basic.ACar()
 
 }

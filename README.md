@@ -40,4 +40,7 @@ go install Main.go
 ```
 
 #### List of Contents
-- Hello.go
+- basic
+    * Hello.go
+    * DataStructre.go
+    * BasicType.go 
