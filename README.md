@@ -43,7 +43,7 @@ go install Main.go
 #### List of Contents
 - **basic**
     - Hello.go
-    - DataStructre.go
+    - DataStructure.go
     - BasicType.go 
 - **network**
     - ServerREST.go
