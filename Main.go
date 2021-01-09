@@ -46,7 +46,7 @@ func main() {
 
 	// ============================== OOP ==============================
 	// constructor
-	mahasiswa, err := oop.NewStrudent("62363824", "Anak Nakal", "Jl. Jalan Gak Pernah Pulang", "Teknik Informatika")
+	mahasiswa, err := oop.NewStudent("62363824", "Anak Nakal", "Jl. Jalan Gak Pernah Pulang", "Teknik Informatika")
 	if err != nil {
 		log.Fatal(err.Error())
 	}

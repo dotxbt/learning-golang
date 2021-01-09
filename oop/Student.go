@@ -14,7 +14,7 @@ type student struct {
 
 
 // constructor
-func NewStrudent(nim string, name string, address string, department string) (student, error) {
+func NewStudent(nim string, name string, address string, department string) (student, error) {
 
 	if (nim=="" || name=="" || address=="" || department=="") {
 		return student{}, errors.New("Missing Parameters")
