@@ -5,6 +5,7 @@ import (
 	"fmt"
 )
 
+// private member
 type student struct {
 	nim string
 	name string
