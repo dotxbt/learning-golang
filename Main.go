@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"learning-golang/basic"
 	"learning-golang/network"
+	"learning-golang/oop"
 	"log"
 )
 
@@ -43,7 +44,24 @@ func main() {
 	basic.BasicType()
 	basic.ACar()
 
-	// network
+	// ============================== OOP ==============================
+	// constructor
+	mahasiswa, err := oop.NewStrudent("62363824", "Anak Nakal", "Jl. Jalan Gak Pernah Pulang", "Teknik Informatika")
+	if err != nil {
+		log.Fatal(err.Error())
+	}
+
+	// call method
+	mahasiswa.PrintStudent()
+
+	// call setter
+	mahasiswa.SetName("Teman Amjay")
+
+	// call getter
+	fmt.Printf("\ngetter : %v\n", mahasiswa.GetName())
+	mahasiswa.PrintStudent()
+
+	// ========================== NETWORK ==============================
 	fmt.Println("\n\n:::: NETWORK ::::")
 	network.Server()
 

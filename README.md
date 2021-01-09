@@ -47,3 +47,5 @@ go install Main.go
     - BasicType.go 
 - **network**
     - ServerREST.go
+- **oop**
+    - Student.go
