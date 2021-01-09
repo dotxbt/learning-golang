@@ -3,6 +3,7 @@ Go Programming Language
 
 #### References : 
 - [Golang Documentation](https://golang.org/doc/)
+- [Golang Example](https://golang.org/doc/effective_go.html#examples)
 - [RxGo](https://github.com/ReactiveX/RxGo)
 - [Video REST API 1](https://www.youtube.com/watch?v=2v11Ym6Ct9Q)
 
