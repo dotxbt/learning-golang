@@ -41,6 +41,6 @@ go install Main.go
 
 #### List of Contents
 - basic
-    * Hello.go
-    * DataStructre.go
-    * BasicType.go 
+    - Hello.go
+    - DataStructre.go
+    - BasicType.go 
