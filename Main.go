@@ -3,8 +3,10 @@ package main
 import (
 	"fmt"
 	"learning-golang/basic"
+	"learning-golang/goroutine"
 	"learning-golang/network"
 	"learning-golang/oop"
+	"learning-golang/rxgolang"
 	"log"
 )
 
@@ -66,6 +68,13 @@ func main() {
 	// call getter
 	fmt.Printf("\ngetter : %v\n", mahasiswa.GetName())
 	mahasiswa.PrintStudent()
+
+	//========================== GOROUTINES=============================
+	goroutine.GoChannel()
+	goroutine.GoWorker()
+
+	//========================== RX GOLANG ==============================
+	rxgolang.GoRX()
 
 	// ========================== NETWORK ==============================
 	fmt.Println("\n\n:::: NETWORK ::::")

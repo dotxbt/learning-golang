@@ -74,7 +74,7 @@ func (h *UserHandler) get(w http.ResponseWriter, r *http.Request) {
 		w.Write([]byte(err.Error()))
 	}
 
-	log.Printf("RESPONSE : %s", jsonByte)
+	log.Printf("[REST API] Response : %s", jsonByte)
 
 	w.Header().Add("content-type", "application/json")
 	w.WriteHeader(http.StatusOK)
@@ -101,9 +101,9 @@ func NewUserHandler() *UserHandler {
 
 func Server() {
 	userHandler := NewUserHandler()
-	http.HandleFunc("/user", userHandler.users)
+	http.HandleFunc("/users", userHandler.users)
 
-	log.Println("Listening Server on port 6969 . . . . . .")
+	log.Println("[REST API] trying to listen localhost:6969/users ...")
 	err := http.ListenAndServe(":6969", nil)
 
 	if err != nil {
