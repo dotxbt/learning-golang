@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"learning-golang/basic"
+	"learning-golang/network"
 	"log"
 )
 
@@ -41,5 +42,9 @@ func main() {
 	// data structure
 	basic.BasicType()
 	basic.ACar()
+
+	// network
+	fmt.Println("\n\n:::: NETWORK ::::")
+	network.Server()
 
 }
