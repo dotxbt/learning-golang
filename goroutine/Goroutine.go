@@ -55,7 +55,7 @@ func GoWorker() {
 	}
 	close(jobs)
 
-	// get results 
+	// get results
 	for j := 0; j < 10; j++ {
 		fmt.Println(<-results)
 	}

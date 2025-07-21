@@ -3,7 +3,6 @@ package main
 import (
 	"fmt"
 	"learning-golang/basic"
-	"learning-golang/goroutine"
 	"learning-golang/network"
 	"learning-golang/oop"
 	"learning-golang/rxgolang"
